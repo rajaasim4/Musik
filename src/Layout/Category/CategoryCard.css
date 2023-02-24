@@ -1,0 +1,43 @@
+.Category_Card {
+  height: 326px;
+  width: 370px;
+  /* background-color: orange; */
+  border-radius: 24px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* opacity: 0.5; */
+  transition: 0.5s;
+}
+.Category_Card img {
+  margin: 10px 0px;
+}
+
+.Category_Card h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 38px;
+  /* color: #222222;   */
+  color: white;
+  margin: 10px 0px;
+}
+.Category_Card p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  transition: 0.4s;
+  font-weight: 600;
+}
+.Category_Card:hover {
+  background-color: var(--bgblue) !important;
+  /* background-color: orange; */
+  color: white;
+}
+.Category_Card:hover > * {
+  color: white;
+}

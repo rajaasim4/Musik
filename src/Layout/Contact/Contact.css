@@ -1,0 +1,93 @@
+.Contact {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+}
+.Contact_left {
+  background-color: var(--bgblue);
+  width: 40%;
+  padding: 130px 60px;
+  box-sizing: border-box;
+  position: relative;
+}
+.Contact_left img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.Contact_left p {
+  font-family: var(--ralefont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+address {
+  font-style: normal;
+  margin-top: 30px;
+}
+address span {
+  color: #ffffff;
+  font-family: var(--montfont);
+  line-height: 30px;
+}
+address span svg {
+  color: #ffa3a3;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.Contact_right {
+  width: 60%;
+  background: rgba(34, 34, 34, 0.03);
+  padding: 60px 80px;
+  box-sizing: border-box;
+}
+.form_input {
+  font-family: var(--montfont);
+  font-size: 20px;
+  width: 70%;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.form_input input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+.form_input textarea {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  resize: none;
+}
+@media screen and (max-width: 1024px) {
+  .Contact_left img {
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Contact {
+    flex-direction: column;
+  }
+  .Contact_left,
+  .Contact_right {
+    width: 100%;
+  }
+  .Contact_left {
+    padding: 130px 40px;
+  }
+  .Contact_right {
+    padding: 60px 12px;
+  }
+}

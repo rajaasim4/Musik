@@ -1,0 +1,71 @@
+.Shorts {
+  background: linear-gradient(
+      180deg,
+      rgba(252, 82, 82, 0.05) 0%,
+      rgba(252, 82, 82, 0) 100%
+    ),
+    url("../../assets/Instagram.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  padding: 80px 5px;
+  position: relative;
+  box-sizing: border-box;
+}
+.Shorts_main {
+  /* padding: 0px 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShortsCard {
+  height: 520px;
+  width: 370px;
+  font-family: var(--montfont);
+  border-radius: 5px;
+
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+.ShortsCard:hover {
+  box-shadow: 10px 11px 26px 2px grey;
+  cursor: pointer;
+}
+.ShortsCard img {
+  object-fit: contain;
+  width: 100%;
+  height: 350px;
+}
+.Like_comment span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 10px;
+  color: #222222;
+}
+.ptags {
+  color: gray;
+}
+@media screen and (max-width: 1024px) {
+  .ShortsCard {
+    width: 295px;
+    height: 520px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ShortsCard {
+    width: 370px;
+  }
+  .shorts_heading {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .ShortsCard {
+    width: 310px;
+  }
+  .ShortsCard img {
+    width: 100%;
+  }
+}

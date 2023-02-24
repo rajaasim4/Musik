@@ -1,0 +1,18 @@
+button {
+  height: 56px;
+  width: 175px;
+  left: 501px;
+  top: 0px;
+  border-radius: 8px;
+  height: 56px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: var(--montfont);
+  cursor: pointer;
+  border: 0;
+}

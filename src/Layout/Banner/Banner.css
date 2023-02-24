@@ -1,0 +1,130 @@
+.Banner {
+  width: 100%;
+  background-image: url("../../assets/Banner_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  height: 600px;
+}
+.Banner h2 {
+  font-family: var(--montfont);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.Banner h2 span {
+  color: #ffa3a3;
+}
+.Banner p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+.Banner_btn {
+  width: 30%;
+  /* background-color: mediumaquamarine; */
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Banner_btn span {
+  width: max-content;
+  /* background-color: orange; */
+  color: white;
+  font-weight: 800;
+  font-family: var(--montfont);
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Banner_btn span svg {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.Banner_timer {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px auto;
+}
+.Banner_timer h3 {
+  font-size: 7rem;
+  font-family: sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px white;
+  opacity: 0.5;
+}
+@media screen and (max-width: 1024px) {
+  .Banner_btn {
+    width: 60%;
+  }
+  .Banner_timer h3 {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Banner {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .Banner h2 {
+    font-size: 50px;
+  }
+  .Banner p {
+    font-size: 18px;
+  }
+  .Banner_timer {
+    width: 100%;
+  }
+  .Banner_timer h3 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Banner {
+    padding: 60px 10px;
+    box-sizing: border-box;
+  }
+  .Banner h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .Banner p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .Banner_btn {
+    width: 100%;
+  }
+  .Banner_btn span {
+    font-size: 1.5rem;
+  }
+  .Banner_timer h3 {
+    font-size: 2.5rem;
+    /* width: 100%; */
+  }
+}
+@media screen and (max-width: 320px) {
+  .Banner_btn {
+    /* padding: 0px 10px; */
+    justify-content: space-evenly;
+  }
+  .Banner_btn span {
+    font-size: 1rem;
+  }
+}

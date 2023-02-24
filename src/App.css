@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200;500&family=Raleway:ital@1&family=Sora:wght@300&family=Work+Sans:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oxanium:wght@200;500&family=Raleway:ital@1&family=Sora:wght@300&family=Work+Sans:wght@100;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --bgblue: #381ddb;
+  --montfont: "Montserrat", sans-serif;
+  --ralefont: "Raleway", sans-serif;
+}
+.Space {
+  height: 200px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .Space {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .Space {
+    height: 100px;
+  }
+}
